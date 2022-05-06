@@ -98,6 +98,132 @@ if($minA == $a ) {
         }
     }
 }
+/**1---------------->*/
+if($minA == $b ) {
+    if($a < $c && $a < $d && $a < $e && $a < $f ){
+        $minB = $a;
+        if($c < $d && $c < $e && $c < $f){
+            $minC = $c;
+            if($d < $e && $d < $f ){
+                $minD = $d;
+                if($e < $f ){
+                    $minE = $e;
+                } else { $minF = $f;}
+            }
+        }
+    }
+    if($c < $d && $c < $e && $c < $f && $c < $a){
+        $minB = $c;
+        if($d < $e && $d < $f && $d < $a ){
+            $minC = $d;
+            if($e < $f && $e < $a ){
+                $minD = $e;
+                if($f < $a){
+                    $minE = $f;
+                } else { $minF = $a;}
+            }
+        }
+    }
+    if($d < $e && $d < $f && $d < $a && $d < $c ){
+        $minB = $d;
+        if($e < $f && $e < $a && $e < $c){
+            $minC = $e;
+            if($f < $a && $f < $c){
+                $minD = $f;
+                if($a < $c){
+                    $minE = $a;
+                } else { $minF = $c;}
+            }
+        }
+    }
+    if($e < $f && $e < $a && $e < $c && $e < $d ){
+        $minB = $e;
+        if($f < $a && $f < $c && $f < $d){
+            $minC = $f;
+            if($a < $c && $a < $d){
+                $minD = $a;
+                if($c < $d){
+                    $minE = $c;
+                } else { $minF = $d;}
+            }
+        }
+    }
+    if($f < $a && $f < $c && $f < $d && $f < $e ){
+        $minB = $f;
+        if($a < $c && $a < $d && $a < $e){
+            $minC = $a;
+            if($c < $d && $c < $e){
+                $minD = $c;
+                if($d < $e){
+                    $minE = $d;
+                } else { $minF = $e;}
+            }
+        }
+    }
+}
+/**2---------------->*/
+if($minA == $c ) {
+    if($a < $b && $a < $d && $a < $e && $a < $f  ){
+        $minB = $a;
+        if($b < $d && $b < $e && $b < $f){
+            $minC = $b;
+            if($d < $e && $d < $f ){
+                $minD = $d;
+                if($e < $f){
+                    $minE = $e;
+                } else { $minF = $f;}
+            }
+        }
+    }
+    if($b < $d && $b < $e && $b < $f && $b < $a){
+        $minB = $b;
+        if($d < $e && $d < $f && $d < $a ){
+            $minC = $d;
+            if($e < $f && $e < $a ){
+                $minD = $e;
+                if($f < $a){
+                    $minE = $f;
+                } else { $minF = $a;}
+            }
+        }
+    }
+    if($d < $e && $d < $f && $d < $a && $d < $c ){
+        $minB = $d;
+        if($e < $f && $e < $a && $e < $c){
+            $minC = $e;
+            if($f < $a && $f < $c){
+                $minD = $f;
+                if($a < $c){
+                    $minE = $a;
+                } else { $minF = $c;}
+            }
+        }
+    }
+    if($e < $f && $e < $a && $e < $c && $e < $d ){
+        $minB = $e;
+        if($f < $a && $f < $c && $f < $d){
+            $minC = $f;
+            if($a < $c && $a < $d){
+                $minD = $a;
+                if($c < $d){
+                    $minE = $c;
+                } else { $minF = $d;}
+            }
+        }
+    }
+    if($f < $a && $f < $c && $f < $d && $f < $e ){
+        $minB = $f;
+        if($a < $c && $a < $d && $a < $e){
+            $minC = $a;
+            if($c < $d && $c < $e){
+                $minD = $c;
+                if($d < $e){
+                    $minE = $d;
+                } else { $minF = $e;}
+            }
+        }
+    }
+}
 
 
 
